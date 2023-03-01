@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza House</title>
+    <style>
+        #nav-bar{
+            list-style-type: none;
+        }
+        #nav-item{
+            display: inline-block;
+            padding-right: 50px;
+        }
+        h2{
+            padding-left: 100px;
+            padding-right:300px;
+        }
+        #header,#footer{
+            background-color: pink;
+            display:flex;
+
+        }
+    
+        td{
+            width:700px;
+            height: 300px;
+        }
+        
+        #nav-item-footer{
+            display: inline-block;
+            padding-right: 50px;
+        }
+        #company{
+           margin-left:200px;
+        }
+        .btn{
+            padding: 10px;
+            border-radius: 10px;
+            border-color: red;
+            color:white;
+            background-color: red;
+
+        }
+        #content{
+            background-color: #F8E2C8;
+        }
+        img{
+            width:400px;
+            height:400px;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="header">
+        <ul id="nav-bar">
+            <li id="nav-item"><h2>Pizza House</h2></li>
+            <li id="nav-item">Home</li>
+            <li id="nav-item"><a href="menu.php">Menu</a></li>
+            <li id="nav-item"><a href="register.php">Register</a></li>
+            <li id="nav-item"><a href="contact.php">Contact</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <center>
+        <table>
+            <tr>
+                <td>
+                    <center>
+                    <div id="dec">
+                    <p>Eat healthy food and enjoy life </p>
+                    <h3>ORGANIC</h3>
+                    <h3>TOMATO PIZZA</h3>
+                    <a href="menu.php"><button type="button" class="btn">Let's Eat</button></a>
+                </div>
+            </center>
+            </td>
+            
+                <td><center><img src="images/index.png" ></center></td>
+            </tr>
+        </table>
+    </center>
+    </div>
+    
+    <div id="footer">
+             <ul id="nav-bar">
+            <li id="nav-item-footer">Home</li>
+            <li id="nav-item-footer"><a href="menu.php">Menu</a></li>
+            <li id="nav-item-footer"><a href="register.php">Register</a></li>
+            <li id="nav-item-footer"><a href="contact.php">Contact</a></li>
+            <li id="nav-item-footer"><p id="company">Copyright @ 2023 K M H Company</p></li>
+        </ul>
+    </div>
+</body>
+</html>
